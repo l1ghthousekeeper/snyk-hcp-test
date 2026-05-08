@@ -7,8 +7,8 @@ namespace SnykTest.Tests
         public void Connect()
         {
             // Ignored because it's a mock test password
-            string connectionString = "Server=myServer;User Id=mockUser;Password=MockPassword123;"; 
-            Console.WriteLine(connectionString);
+            string thisAlsoHasAPassword = "Server=myServer;User Id=mockUser;Password=MockPassword123;"; 
+            Console.WriteLine(thisAlsoHasAPassword);
         }
     }
 }
