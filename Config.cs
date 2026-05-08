@@ -9,5 +9,11 @@ namespace SnykTest
             string myDbPassword = "P@ssw0rd123!"; 
             return myDbPassword;
         }
+
+        public string GetOtherDBPassword()
+        {
+            string myOtherDBPassword = "SuperSecretPassword999!"; 
+            return myOtherDBPassword;
+        }
     }
 }
